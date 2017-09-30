@@ -1,0 +1,117 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    background: url(../images/im3.jpg) center fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    -moz-box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+    -webkit-box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+    -o-box-shadow: inset 0px 11px 20px -2px #000000, 0px -11px 20px -2px #000000;
+    box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+}
+
+.article {
+    padding: 60px;
+    text-align: center;
+}
+
+hr {
+    color: #f00;
+    background-color: #fff;
+    height: 1px;
+}
+
+.titre {
+    border-radius: 6px 6px 6px 6px;
+    color: #07366B;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 60px;
+    text-align: center;
+}
+
+.titre>h1 {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 60px;
+    text-align: center;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+
+#contenu {
+    background-color: #155BAA;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#transition {
+    background: url(../images/im4.jpg) no-repeat center fixed;
+    height: 100vh;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    -moz-box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+    -webkit-box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+    -o-box-shadow: inset 0px 11px 20px -2px #000000, 0px -11px 20px -2px #000000;
+    box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
+}
+
+   #image-wrapper{
+         width:500px;
+         height:500px;
+         display:flex;
+         justify-content:center;
+         align-items:center;
+      }
+
+#apropos {
+    background-color: #000000;
+    color: white;
+    height: 70vh;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    color: #fff;
+}
+
+#footer {}
+
+.footer-background {
+    background-color: #000000;
+    min-height: 60px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-menu {
+    margin-left: 0;
+    padding: 0 0 5px;
+}
+
+.footer-menu li {
+    display: inline;
+    list-style-type: none;
+}
+
+.footer-menu li a {
+    border-left: 1px solid #404040;
+    padding: 0 8px;
+}
+
+.footer-menu>li:first-child>a {
+    border-left: medium none;
+    padding: 0 8px;
+}
