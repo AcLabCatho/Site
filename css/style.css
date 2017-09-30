@@ -1,4 +1,3 @@
-
 html,
 body {
     margin: 0;
@@ -29,16 +28,25 @@ hr {
 }
 
 .titre {
-    border-radius: 6px 6px 6px 6px;
     color: #07366B;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
-    padding: 60px;
+    padding: 25px;
+    margin: 10px;
     text-align: center;
 }
 
-.titre>h1 {
+#intro .titre {
+    color: #07366B;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 20% 0 20% 0;
+    text-align: center;
+}
+
+.titre > h1 {
     font-size: 90px;
     font-weight: bold;
     line-height: 30px;
@@ -47,6 +55,9 @@ hr {
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
 #contenu {
     background-color: #155BAA;
     height: 100vh;
@@ -68,13 +79,13 @@ hr {
     box-shadow: inset 0px 11px 20px -2px #000000, inset 0px -11px 20px -2px #000000;
 }
 
-   #image-wrapper{
-         width:500px;
-         height:500px;
-         display:flex;
-         justify-content:center;
-         align-items:center;
-      }
+#image-wrapper {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #apropos {
     background-color: #000000;
@@ -111,7 +122,7 @@ hr {
     padding: 0 8px;
 }
 
-.footer-menu>li:first-child>a {
+.footer-menu > li:first-child > a {
     border-left: medium none;
     padding: 0 8px;
 }
